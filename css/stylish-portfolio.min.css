@@ -221,7 +221,7 @@ h6 {
 
 .callout {
     padding: 15rem 0;
-    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/bg-callout.jpg);
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/ya.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover
@@ -231,7 +231,8 @@ h6 {
     font-size: 3.5rem;
     font-weight: 700;
     display: block;
-    max-width: 30rem
+    max-width: 30rem; color:white;
+    background: rgba(0, 0, 0, 0.159);
 }
 
 .portfolio-item {
