@@ -9,6 +9,24 @@ html {
     height: 100%
 }
 
+
+
+.animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+
+.animate-left1{position:relative;animation:animateleft 0.5s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.animate-left2{position:relative;animation:animateleft 0.7s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.animate-left3{position:relative;animation:animateleft 0.9s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.animate-spin{ position:relative;animation:spin 0.5s;}@keyframes spin{0%{ opacity: 0; transform: rotate(-220deg) } }
+.animate-spin-inverse{ position:relative;animation:spin .5s; -webkit-transform-origin: bottom left;}@keyframes spin{ 0%{ opacity: 0; transform: rotate(-220deg) } }
+
+
+
 body {
     font-family: 'Source Sans Pro'
 }
