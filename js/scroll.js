@@ -12,7 +12,7 @@ $(document).ready(function() {
     
     
                     if(windowHeight >= about  ){
-                        $('#services').fadeIn(500);
+                    
                         
                         $('#s1').fadeIn(500);
                         $('#s2').fadeIn(500);
